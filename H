@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Environmental Advocate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Environmental Advocate</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#youtube">YouTube Channel</a>
+        <a href="#contact">Contact Info</a>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself here. Include your background, interests, and why you're passionate about environmental issues.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Detail the environmental projects you are working on. Include descriptions, goals, and any relevant links or images.</p>
+        </section>
+        
+        <section id="youtube">
+            <h2>YouTube Channel</h2>
+            <p>Share information about your YouTube channel here. You can include a brief description of the content you create and a link to your channel.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Info</h2>
+            <p>Provide your contact information here. You might include an email address, social media links, or a contact form.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
